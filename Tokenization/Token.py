@@ -12,5 +12,5 @@ def main():
 
 if __name__ == "__main__":
     Tokenizer = tiktoken.encoding_for_model("gpt-4o")
-    text="This is the test text im providing" #Text 
+    text="Wht is chatGPT" #Text 
     main()
