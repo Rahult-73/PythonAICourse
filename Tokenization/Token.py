@@ -3,10 +3,10 @@
 import tiktoken
 
 def main():
-    #Enconder
+    #Encoded Text
     encoded = Tokenizer.encode(text)
     print(f"Encoded: {encoded}")
-    #Decoder
+    #Decoded Text
     decoded = Tokenizer.decode(encoded)
     print(f"Decoded: {decoded}")
 
