@@ -1,0 +1,4 @@
+## GPT model API CALL
+  - FAST API
+  - OLLAMA
+  - PROMPTS
