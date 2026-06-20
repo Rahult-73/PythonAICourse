@@ -1,5 +1,9 @@
 .env
 .env.*
+.venv
 .ipynb_checkpoints/
 .virtual_documents/
 *.ipynb
+.dolater.md
+.DS_Store
+/AGENT_Framework/__pycache__

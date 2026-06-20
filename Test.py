@@ -1,14 +1,12 @@
 from dotenv import load_dotenv
 import os
-
-load_dotenv()
-
-api_key = os.getenv("OPEN_AI_API_KEY")
-
-
+from colorama import Fore, Style, init
+import json
 
 def main():
-    print("Hello")
+    result=json.dumps({"step":"Plan","Contant":"javascript"})
+    print(result)
 
 if __name__ == "__main__":
+    init()
     main()
