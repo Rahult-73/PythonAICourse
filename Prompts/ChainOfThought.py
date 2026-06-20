@@ -60,10 +60,12 @@ messages = [
 "role": "system",
 "content": SYSTEM_PROMPT
 },
+#region user input
 {
 "role": "user",
 "content": "write a browser javascript to autofill form by running the script in the browser console"
 }
+#endregion
 ]
 
 plan_count = 0
@@ -132,7 +134,7 @@ while True:
     # validate OUTPUT
     if parsed["step"] == "OUTPUT":
 
-        if plan_count < 3:
+        if plan_count < 2:
 
             print(
                 Fore.YELLOW +
