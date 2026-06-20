@@ -5,4 +5,5 @@
 .virtual_documents/
 *.ipynb
 .dolater.md
+.DS_Store
 /AGENT_Framework/__pycache__
